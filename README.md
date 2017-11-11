@@ -18,11 +18,11 @@ This is the recommended way to install NYUDepthNet.
 This installation method is more complex; however, it does grant increased customizability.
 * Clone the repository.
 * Install dependencies
-..* [Theano](https://github.com/Theano/Theano)
-..* Install the dependencies mentioned in the Automatic method.
+	* [Theano](https://github.com/Theano/Theano)
+	* Install the dependencies mentioned in the Automatic method.
 * There are two methods to setup the installation:
-..1. Run setup_env.py
-..2. Manually download an unpack weights
-....* Download weights and scripts from [NYU](https://cs.nyu.edu/~deigen/depth/)
-....* Convert weights from .pk format to .npy or to tensorflow variables. NOTE: These weights are formatted as Theano tensors, so they must be converted to Tensorflow tensors. See [TheanoUnpickler](https://github.com/Rostifar/TheanoUnpickler).
+	1. Run setup_env.py
+	2. Manually download an unpack weights
+		* Download weights and scripts from [NYU](https://cs.nyu.edu/~deigen/depth/)
+		* Convert weights from .pk format to .npy or to tensorflow variables. NOTE: These weights are formatted as Theano tensors, so they must be converted to Tensorflow tensors. See [TheanoUnpickler](https://github.com/Rostifar/TheanoUnpickler).
 * Run main.py to ensure NYUDepthNet was installed correctly.
