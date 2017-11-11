@@ -3,13 +3,15 @@ NYUDepthNet is an unofficial Tensorflow implementation of *[Predicting Depth, Su
 
 
 # Installation
+There are two ways to install NYUDepthNet - Automatic and Manual. The latter is complex to configure, so it's recommended that you use the Automatic method.
+
 ## Automatic 
 This is the recommended way to install NYUDepthNet.
 * Clone the repository.
 * Install dependencies
-..* [Tensorflow](https://github.com/tensorflow/tensorflow)
-..* [Numpy](https://github.com/numpy/numpy)
-..* [Matplotlib](https://github.com/matplotlib/matplotlib)
+	* [Tensorflow](https://github.com/tensorflow/tensorflow)
+	* [Numpy](https://github.com/numpy/numpy)
+	* [Matplotlib](https://github.com/matplotlib/matplotlib)
 * Run main.py to ensure NYUDepthNet was installed correctly.
 
 ## Manual
@@ -23,3 +25,4 @@ This installation method is more complex; however, it does grant increased custo
 ..2. Manually download an unpack weights
 ....* Download weights and scripts from [NYU](https://cs.nyu.edu/~deigen/depth/)
 ....* Convert weights from .pk format to .npy or to tensorflow variables. NOTE: These weights are formatted as Theano tensors, so they must be converted to Tensorflow tensors. See [TheanoUnpickler](https://github.com/Rostifar/TheanoUnpickler).
+* Run main.py to ensure NYUDepthNet was installed correctly.
