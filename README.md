@@ -24,5 +24,5 @@ This installation method is more complex; however, it does grant increased custo
 	1. Run setup_env.py
 	2. Manually download an unpack weights
 		* Download weights and scripts from [NYU](https://cs.nyu.edu/~deigen/depth/)
-		* Convert weights from .pk format to .npy or to tensorflow variables. NOTE: These weights are formatted as Theano tensors, so they must be converted to Tensorflow tensors. See [TheanoUnpickler](https://github.com/Rostifar/TheanoUnpickler).
+		* Convert weights from .pk format to .npy or to tensorflow variables. __NOTE__: These weights are formatted as Theano tensors, so they must be converted to Tensorflow tensors. See [TheanoUnpickler](https://github.com/Rostifar/TheanoUnpickler).
 * Run main.py to ensure NYUDepthNet was installed correctly.
