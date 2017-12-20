@@ -26,3 +26,10 @@ This installation method is more complex; however, it does grant increased custo
 		* Download weights and scripts from [NYU](https://cs.nyu.edu/~deigen/depth/)
 		* Convert weights from .pk format to .npy or to tensorflow variables. __NOTE__: These weights are formatted as Theano tensors, so they must be converted to Tensorflow tensors. See [TheanoUnpickler](https://github.com/Rostifar/TheanoUnpickler).
 * Run main.py to ensure NYUDepthNet was installed correctly.
+
+# Example Images
+
+![alt text](https://raw.githubusercontent.com/Rostifar/NYUDepthNet/master/img_0004_abs_smooth_new.png)
+![alt text](https://raw.githubusercontent.com/Rostifar/NYUDepthNet/master/img_0331_abs_smooth_new.png)
+![alt text](https://raw.githubusercontent.com/Rostifar/NYUDepthNet/master/img_0807_abs_smooth_new.png)
+![alt text](https://raw.githubusercontent.com/Rostifar/NYUDepthNet/master/img_0815_abs_smooth_new.png)
