@@ -1,4 +1,7 @@
-# DepthNet 
+# Deprecated
+Please note that this repository is longer functional and only exists for archival purposes. Since the release of this repository, several other approaches (e.g. https://arxiv.org/abs/1609.03677) have produced superior results; therefore, I recommend that you explore these methods instead. Regardless, the model.py provides a "barebones" implementation without weights or display tools.  
+
+# DepthNet
 DepthNet is an unofficial Tensorflow implementation of *[Predicting Depth, Surface Normals and Semantic Labels with a Common Multi-Scale Convolutional Architecture](https://www.cs.nyu.edu/~deigen/depth/)*. __Note__: This repository was created for a research project, not associated with NYU, to explore the implications of residual neural networks for monocular depth estimation and smartphone-based spatial mapping. These modifications were not included in this repository for compeleteness. If you would like these modification, please email me at rcbridendev@gmail.com. 
 
 
